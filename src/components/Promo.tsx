@@ -33,7 +33,10 @@ export const Default = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
     return (
-      <div className={`component promo ${props.params.styles}`} id={id ? id : undefined}>
+      <div
+        className={`component promo container-color-background ${props.params.styles}`}
+        id={id ? id : undefined}
+      >
         <div className="component-content">
           <div className="field-promoicon">
             <JssImage field={props.fields.PromoIcon} />
