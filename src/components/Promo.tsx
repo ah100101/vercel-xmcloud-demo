@@ -34,7 +34,7 @@ export const Default = (props: PromoProps): JSX.Element => {
   if (props.fields) {
     return (
       <div
-        className={`component promo container-color-background ${props.params.styles}`}
+        className={`component promo container-clean-background ${props.params.styles}`}
         id={id ? id : undefined}
       >
         <div className="component-content">
